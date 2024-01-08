@@ -77,23 +77,23 @@
   right: 0;
   top: 6rem;
   gap: 1vh;
-  overflow: hidden; 
- }
- 
- .cartContainer::before {
+  overflow: hidden;
+}
+
+.cartContainer::before {
   content: "";
   display: block;
-  background-color: var(--accent-color); 
+  background-color: var(--accent-color);
   width: calc(100% + 1em);
   height: 100%;
   position: absolute;
   right: -1em;
   top: 0;
   z-index: -10;
-  border-radius: 10%;
+  border-radius: 25px;
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
- }
+}
 .cartContainer ul {
   padding: 0;
   list-style: none;
