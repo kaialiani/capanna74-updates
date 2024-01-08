@@ -145,6 +145,8 @@
 .quantity button {
   border-radius: 50px;
   border: 0;
+  width: 2rem;
+  height: 2rem;
 }
 
 .total {
@@ -241,5 +243,11 @@
 
   .takeawayLeft h2 {
     margin-top: 3rem;
+  }
+
+  .quantity {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
   }
 }
